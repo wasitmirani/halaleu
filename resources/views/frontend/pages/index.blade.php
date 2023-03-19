@@ -11,34 +11,41 @@
       <div class="row align-items-center">
         <div class="col-lg-6">
           <div class="title title2 ">
-            <small data-aos="fade-right" data-aos-duration="600" class="heading-top2"><img src="assets/img/icons/money.png" alt="">Award-Winnng Tax Consultant
-              in Texas</small>
-            <h1 data-aos="fade-right" data-aos-duration="800">We help you avoid tax blunders.</h1>
-            <p data-aos="fade-right" data-aos-duration="1000">Making a mistake on your return can be costly. From missed deductions, or worse, the dreaded IRS
-              audit.</p>
+            <small data-aos="fade-right" data-aos-duration="600" class="heading-top2">
+            {{-- <img src="assets/img/icons/money.png" alt=""> --}}
+                {{ __('content.site_title') }}
+              </small>
+            <h2 data-aos="fade-right" data-aos-duration="800">{{__('content.main_heading')}}</h2>
+            <p data-aos="fade-right" data-aos-duration="1000">
+                {{__('content.main_subheading')}}
+            </p>
             <div class="space30"></div>
             <div class="btn-group" data-aos="fade-right" data-aos-duration="1200">
-              <a class="theme-btn-2" href="#">Get An Estimated Quote <span><i class="fa-solid fa-arrow-right"></i></span></a>
-              <a class="theme-btn-3" href="#">Schdule A Call <span><i class="fa-solid fa-arrow-right"></i></span></a>
+              <a class="theme-btn-2" href="#">
+                {{__('content.est_quote')}}
+              <span><i class="fa-solid fa-arrow-right"></i></span></a>
+              <a class="theme-btn-3" href="#">
+                {{__('content.schedule_call')}}
+              <span><i class="fa-solid fa-arrow-right"></i></span></a>
             </div>
             <div class="space80"></div>
             <div class="logo-area2" data-aos="fade-right" data-aos-duration="1400">
-              <p>Trusted by more than 400+ companies worldwide</p>
+              <p>{{__('content.partner_message')}}</p>
               <div class="logos logos2 owl-carousel">
                 <div class="single-logo">
-                  <img src="assets/img/logo/logo21.png" alt="">
+                  <img src="{{asset('assets/img/logo/Nestle.png')}}" alt="Nestle">
                 </div>
                 <div class="single-logo">
-                  <img src="assets/img/logo/logo22.png" alt="">
+                  <img src="{{asset('assets/img/logo/Nespresso.png')}}" alt="Nespresso">
                 </div>
                 <div class="single-logo">
-                  <img src="assets/img/logo/logo23.png" alt="">
+                  <img src="{{asset('assets/img/logo/merck.png')}}" alt="merck">
                 </div>
                 <div class="single-logo">
-                  <img src="assets/img/logo/logo24.png" alt="">
+                  <img src="{{asset('assets/img/logo/sweetly.png')}}" alt="sweetly">
                 </div>
                 <div class="single-logo">
-                  <img src="assets/img/logo/logo25.png" alt="">
+                  <img src="{{asset('assets/img/logo/swiss.png')}}" alt="swiss">
                 </div>
               </div>
             </div>
@@ -47,12 +54,12 @@
         <div class="col-lg-6 d-none d-lg-block">
           <div class="hero-img-elements" data-aos="zoom-out" data-aos-duration="800">
             <div class="hero-main-img position-relative top-right-polygon-1">
-              <img class="border-radius" src="assets/img/bg/main2.jpg" alt="">
+              <img class="border-radius" src="{{asset('assets/img/bg/main2.jpg')}}" alt="bg">
               <div class="corner-shape2 position-absolute">
-                <img src="assets/img/shapes/tax-shape1.png" alt="">
+                <img src="{{asset('assets/img/shapes/tax-shape1.png')}}" alt="shape">
               </div>
               <div class="corner-right-bottom-shape2 position-absolute">
-                <img src="assets/img/shapes/shape-right-bottom2.png" alt="">
+                <img src="{{asset('assets/img/shapes/shape-right-bottom2.png')}}" alt="bottom">
               </div>
             </div>
           </div>
@@ -60,7 +67,7 @@
       </div>
     </div>
     <div class="down-arrow2" data-aos="fade-down" data-aos-duration="400">
-      <a href="#about"><img src="assets/img/icons/down-arrow-black.svg" alt=""></a>
+      <a href="#about"><img src="{{asset('assets/img/icons/down-arrow-black.svg')}}" alt="black"></a>
     </div>
   </div>
   <!--=====Welcome end=======-->
@@ -71,9 +78,12 @@
       <div class="row">
         <div class="col-md-4 m-auto">
           <div class="heading2 white-heading text-center">
-            <small data-aos="fade-up" data-aos-duration="600" class="heading-top"><img src="assets/img/icons/hands.svg" alt="">We Are Here For Your Tax
-              Relief.</small>
-            <h2 data-aos="fade-up" data-aos-duration="800"><span class="heilight-left">Consultia</span> tax is built for small business.</h2>
+            <small data-aos="fade-up" data-aos-duration="600" class="heading-top">
+            <img src="{{asset('assets/img/icons/hands.svg')}}" alt="">
+            {{__('content.site_title')}}
+            </small>
+            <h2 data-aos="fade-up" data-aos-duration="800"><span class="heilight-left">
+            {{__('content.main_heading')}}</span> </h2>
           </div>
         </div>
       </div>
@@ -81,46 +91,29 @@
         <div class="col-md-6" data-aos="fade-up" data-aos-duration="600">
           <div class="single-business trans-1">
             <div class="business-icon">
-              <img src="assets/img/icons/tax-business1.png" alt="">
+              <img src="{{asset('assets/img/icons/tax-business1.png')}}" alt="business">
             </div>
-            <h3>IRS Tax Problems</h3>
-            <p>Making a mistake on your return can be costly. From missed deductions, or worse, the dreaded IRS audit.</p>
-            <a href="#" class="theme-btn-7">Learn More <span><i class="fa-solid fa-arrow-right"></i></span></a>
+            {{-- <h3>IRS Tax Problems</h3> --}}
+            <p>{{__('content.section_message_1')}}</p>
+
           </div>
         </div>
         <div class="col-md-6" data-aos="fade-up" data-aos-duration="800">
           <div class="single-business trans-1">
             <div class="business-icon">
-              <img src="assets/img/icons/tax-business2.png" alt="">
+              <img src="{{asset('assets/img/icons/tax-business2.png')}}" alt="img">
             </div>
-            <h3>Tax Preparation and Planning</h3>
-            <p>Getting the most our of your income and finances is what sets us apart. Whether you need tax preparation services.</p>
-            <a href="#" class="theme-btn-7">Learn More <span><i class="fa-solid fa-arrow-right"></i></span></a>
+
+            <p>{{__('content.section_message_2')}}</p>
           </div>
         </div>
         <div class="col-md-6" data-aos="fade-up" data-aos-duration="1000">
           <div class="single-business trans-1">
             <div class="business-icon">
-              <img src="assets/img/icons/tax-business3.png" alt="">
+                <img src="{{asset('assets/img/icons/tax-business3.png')}}" alt="img">
             </div>
-            <h3>Payroll Services</h3>
-            <p>Managing payroll may not seem like a critical task untill something goes wrong. We have experts and technology to help you.</p>
-            <a href="#" class="theme-btn-7">Learn More <span><i class="fa-solid fa-arrow-right"></i></span></a>
+            <p>{{__('content.section_message_3')}}</p>
           </div>
-        </div>
-        <div class="col-md-6" data-aos="fade-up" data-aos-duration="1200">
-          <div class="single-business trans-1">
-            <div class="business-icon">
-              <img src="assets/img/icons/tax-business4.png" alt="">
-            </div>
-            <h3>Bookkeeping and Virtual CFO</h3>
-            <p>We know that competent, consistent bookkeeping is the key to a business success. Sucess starts when you take charge of books.</p>
-            <a href="#" class="theme-btn-7">Learn More <span><i class="fa-solid fa-arrow-right"></i></span></a>
-          </div>
-        </div>
-        <div class="space20"></div>
-        <div class="col-12 text-center" data-aos="fade-up" data-aos-duration="1400">
-          <a class="theme-btn-3" href="#">Explore More Services <span><i class="fa-solid fa-arrow-right"></i></span></a>
         </div>
       </div>
     </div>
@@ -135,31 +128,29 @@
         <div class="col-lg-6">
           <div class="about-bg-21 mr50" data-aos="zoom-out" data-aos-duration="800">
             <div class="about-bg-main-img position-relative top-left-polygon-1">
-              <img src="assets/img/about/about21.png" alt="">
+              <img src="{{asset('assets/img/about/about21.png')}}" alt="img">
               <div class="corner-right-bottom-shape2 position-absolute">
-                <img src="assets/img/shapes/shape-right-bottom2.png" alt="">
+                <img src="{{asset('assets/img/shapes/shape-right-bottom2.png')}}" alt="img">
               </div>
               <div class="corner-shape2-left position-absolute">
-                <img src="assets/img/shapes/tax-shape2.png" alt="">
+                <img src="{{asset('assets/img/shapes/tax-shape2.png')}}" alt="img">
               </div>
             </div>
           </div>
         </div>
         <div class="col-lg-6">
           <div class="heading2 no-margin-heading ml50">
-            <small data-aos="fade-left" data-aos-duration="600" class="heading-top"><img src="assets/img/icons/hands.svg" alt="">We Are Here For Your Tax
-              Relief.</small>
-            <h2 data-aos="fade-left" data-aos-duration="800">We Handle The Most Tedious Bookkeeping Tasks of Your Business Operations.</h2>
-            <p data-aos="fade-left" data-aos-duration="1000">Experienced, knowledgeable professionals in Property Tax Consulting. Our team of Property Tax
-              Consultants is committed to saving you money by obtaining the lowest possible assessed value for your commercial or residential properties.
+            <small data-aos="fade-left" data-aos-duration="600" class="heading-top">
+            <img src="assets/img/icons/hands.svg" alt="">{{__('content.about_section_title')}}</small>
+            <h3 data-aos="fade-left" data-aos-duration="800">{{__('content.about_section_heading')}}.</h3>
+            <p data-aos="fade-left" data-aos-duration="1000">
+            {{__('content.about_section_message_1')}}
             </p>
-            <p data-aos="fade-left" data-aos-duration="1000"> At Resolute we are experienced, knowledgeable professionals who always stay well-informed on the
-              latest Tax Code changes in order to maintain our superior customer service.</p>
+            <p data-aos="fade-left" data-aos-duration="1000">   {{__('content.about_section_message_2')}}</p>
             <div class="space50"></div>
             <div class="button-group" data-aos="fade-left" data-aos-duration="1200">
-              <a class="theme-btn-2" href="#">More About Us <span><i class="fa-solid fa-arrow-right"></i></span></a>
+              <a class="theme-btn-2" href="{{route('about')}}">{{__('content.about_button')}} <span><i class="fa-solid fa-arrow-right"></i></span></a>
             </div>
-
           </div>
         </div>
       </div>
@@ -171,78 +162,89 @@
   <div class="about-area section-padding bg5">
     <div class="container">
       <div class="row align-items-center">
-        <div class="col-lg-6 d-none d-lg-block">
+        <div class="col-lg-12 d-none d-lg-block">
           <div class="mr50">
             <div class="heading2 no-margin-heading">
-              <small data-aos="fade-right" data-aos-duration="600" class="heading-top"><img src="assets/img/icons/hands.svg" alt="">We Are Here For Your Tax
-                Relief.</small>
-              <h2 data-aos="fade-right" data-aos-duration="800">We Handle The Most Tedious Bookkeeping Tasks of Your Business Operations.</h2>
-              <p data-aos="fade-right" data-aos-duration="1000">Experienced, knowledgeable professionals in Property Tax Consulting. Our team of Property Tax
-                Consultants is committed to saving you money by obtaining the lowest possible assessed value for your commercial or residential properties.
-              </p>
-              <div class="space50"></div>
-              <div class="button-group" data-aos="fade-right" data-aos-duration="1200">
-                <a class="theme-btn-2" href="#">More About Us <span><i class="fa-solid fa-arrow-right"></i></span></a>
-              </div>
+              {{-- <small data-aos="fade-right" data-aos-duration="600" class="heading-top">
+              <img src="{{asset('assets/img/icons/hands.svg')}}" alt="">
+                    {{__('content.main_title')}}
+                </small> --}}
+              {{-- <h2 data-aos="fade-right" data-aos-duration="800">
+                    {{__('content.about_title')}}
+              </h2> --}}
             </div>
           </div>
         </div>
-        <div class="col-lg-6">
-          <div class="counter2 ml50 position-relative">
-            <div class="row">
-              <div class="col-md-6">
-                <div class="single-counter" data-aos="zoom-out" data-aos-duration="600">
-                  <div class="conter-icon">
-                    <img src="assets/img/icons/counter21.png" alt="">
-                  </div>
-                  <h2><span class="up-counter">645</span>+</h2>
-                  <p>Meetings So For</p>
-                </div>
-                <div class="single-counter" data-aos="zoom-out" data-aos-duration="800">
-                  <div class="conter-icon">
-                    <img src="assets/img/icons/counter22.png" alt="">
-                  </div>
-                  <h2><span class="up-counter">34</span>+</h2>
-                  <p>Meetings So For</p>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="single-counter mt-5" data-aos="zoom-out" data-aos-duration="1000">
-                  <div class="conter-icon">
-                    <img src="assets/img/icons/counter23.png" alt="">
-                  </div>
-                  <h2><span class="up-counter">562</span>+</h2>
-                  <p>Meetings So For</p>
-                </div>
-                <div class="single-counter" data-aos="zoom-out" data-aos-duration="1200">
-                  <div class="conter-icon">
-                    <img src="assets/img/icons/counter24.png" alt="">
-                  </div>
-                  <h2><span class="up-counter">90</span>%</h2>
-                  <p>Meetings So For</p>
-                </div>
-              </div>
-            </div>
-            <div class="corner-right-bottom-shape2 position-absolute">
-              <img src="assets/img/shapes/shape-right-bottom2.png" alt="">
-            </div>
-            <div class="corner-shape2-left position-absolute">
-              <img src="assets/img/shapes/tax-shape2.png" alt="">
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6 d-lg-none">
-          <div class="mr50">
-            <div class="heading2 no-margin-heading">
-              <small class="heading-top"><img src="assets/img/icons/hands.svg" alt="">We Are Here For Your Tax Relief.</small>
-              <h2>We Handle The Most Tedious Bookkeeping Tasks of Your Business Operations.</h2>
-              <p>Experienced, knowledgeable professionals in Property Tax Consulting. Our team of Property Tax Consultants is committed to saving you money by obtaining the lowest possible assessed value for your commercial or residential properties.
-              </p>
-              <div class="space50"></div>
-              <a class="theme-btn-2" href="#">More About Us <span><i class="fa-solid fa-arrow-right"></i></span></a>
-            </div>
-          </div>
+        <div class="col-lg-12 d-none  d-lg-block">
+            <div class="faq-items" id="masonry-grid" >
+                <div class="mesonry-item general single-price-list" style="position: absolute; left: 0px; top: 0px;">
+                  <div class="faqs inner-faq">
+                    <div id="general">
+                      <div class="single-faq">
+                        <h2 class="faq-heading font-f-3 weight-700 collapsed" id="faq-heading1" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                          {{__('content.history_title')}}
+                        </h2>
+                        <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="faq-heading1" data-bs-parent="#general" style="">
+                          <p class="font-f-3 weight-500">
+                            {{__('content.history_message_1')}}
+                          </p>
+                          <p class="font-f-3 weight-500">
+                            {{__('content.history_message_2')}}
+                          </p>
+                        </div>
+                      </div>
+                      <div class="single-faq">
+                        <h2 class="faq-heading collapsed font-f-3 weight-700" id="faq-heading2" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                         {{__('content.mission_title')}}
+                        </h2>
+                        <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="faq-heading2" data-bs-parent="#general">
+                          <p class="font-f-3 weight-500">
+                          {{__('content.mission_message_1')}}
+                          </p>
+                          <p class="font-f-3 weight-500">
+                            {{__('content.mission_message_2')}}
+                            </p>
+                            <p class="font-f-3 weight-500">
+                                {{__('content.mission_message_3')}}
+                            </p>
+                            <p class="font-f-3 weight-500">
+                                {{__('content.mission_message_4')}}
+                            </p>
+                        </div>
+                      </div>
+                      <div class="single-faq">
+                        <h2 class="faq-heading collapsed font-f-3 weight-700" id="faq-heading3" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                         {{__('content.objectives_title')}}
+                        </h2>
+                        <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="faq-heading3" data-bs-parent="#general">
+                          <p class="font-f-3 weight-500">
+                            {{__('content.objectives_message_1')}}
+                          </p>
+                          <p class="font-f-3 weight-500">
+                            {{__('content.objectives_message_2')}}
+                          </p>
+                          <p class="font-f-3 weight-500">
+                            {{__('content.objectives_message_3')}}
+                          </p>
+                          <p class="font-f-3 weight-500">
+                            {{__('content.objectives_message_4')}}
+                          </p>
+                        </div>
+                      </div>
 
+                    </div>
+                  </div>
+                </div>
+
+
+
+
+
+
+
+
+
+              </div>
         </div>
       </div>
     </div>

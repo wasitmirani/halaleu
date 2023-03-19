@@ -18,6 +18,8 @@
                     <li><a href="#">Blogs </a></li>
                     <li><a href="{{route('contact')}}">Contact Us </a></li>
 
+
+
                   </ul>
                 </div>
               </div>
@@ -27,9 +29,15 @@
                 <div class="quick_contact_icon bg-27">
                   <i class="fa-light fa-phone"></i>
                 </div>
+
                 <div class="quick_contact_content">
-                  <small>Hotline 24/7</small>
-                  <a href="tel:+49 30 923325544">+49 30 923325544</a>
+                    <select class="form-control changeLang">
+                        <option value="en" {{ session()->get('locale') == 'en' ? 'selected' : '' }}>English</option>
+                        <option value="de" {{ session()->get('locale') == 'de' ? 'selected' : '' }}>Deutsch</option>
+
+                    </select>
+                  {{-- <small>Hotline 24/7</small>
+                  <a href="tel:+49 30 923325544">+49 30 923325544</a> --}}
                 </div>
               </div>
             </div>
