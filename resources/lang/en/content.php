@@ -40,7 +40,12 @@ return [
     'what_is_halal_message_2'=>"The religious term haram can be applied to:",
     'what_is_halal_message_3'=>"Certain foodstuffs or food ingredients, such as alcohol or pork and also to foods, objects and people that would normally be halaal but which were tarnished in some or other way, for example meat slaughtered in a non-permitted way Certain behaviours, such as adultery or abuse, abstention in the general elections Certain objects",
     'what_is_halal_message_4'=>"Haram also applies to ill-gotten wealth obtained through sin. Examples include money earned through cheating, stealing, corruption, murder or any means that involves harm to another human being. It is prohibited in Islam for a true Muslim to profit from such Haram actions. Any believer who benefits from or lives off wealth obtained through Haram is not a Muslim.",
-    "important_terms_title"=>"",
+    "important_terms_title"=>"Important terms",
+    "important_terms_message_1"=>"Haram means ‘unlawful’ or ‘prohibited’ according to Islamic Law.",
+    "important_terms_message_2"=>"Najs regards foods that are themselves ‘impure’ and that cannot be cleaned.",
+    "important_terms_message_3"=>"Mashbooh means ‘suspected’. If Halal food consists of that which is deemed a suspected or unlawful (Haram) ingredient, the item becomes wholly unlawful.",
+    "important_terms_message_4"=>"Tayyeb is synonymous with ‘purity’ and ‘quality’, that which is safe and wholesome. Muslims are religiously mandated to consume only Halal and Tayyeb.",
+    "important_terms_message_5"=>"Thus most foods are considered to be Halal unless found to be or containing doubtful or Non-Halal ingredient(s)",
 ];
 
 
