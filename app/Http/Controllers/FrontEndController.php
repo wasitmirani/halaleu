@@ -13,8 +13,12 @@ class FrontEndController extends Controller
         return view('frontend.pages.index');
     }
 
-    public function halal(){
-        return view('frontend.pages.halal');
+    public function halalExplained(){
+        return view('frontend.pages.halalExplained');
+    }
+
+    public function halalProduction(){
+        return view('frontend.pages.halalProduction');
     }
     public function about(Request $request){
         return view('frontend.pages.about');

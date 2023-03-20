@@ -8,19 +8,7 @@
             <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
           </div>
         </div>
-        <div class="col-lg col-md-6">
-          <div class="single-footer">
-            <h3>Learn</h3>
-            <div class="footer-menu">
-              <ul>
-                <li><a href="#">Product</a></li>
-                <li><a href="#">Pricing</a></li>
-                <li><a href="#">Schedule a demo</a></li>
-                <li><a href="#">Our Blog</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
+
         <div class="col-lg col-md-6">
           <div class="single-footer">
             <h3>Our Company</h3>
@@ -43,8 +31,7 @@
                 <div class="contact-icon">
                   <img src="assets/img/icons/contact-phone2.svg" alt="">
                 </div>
-                <a href="#">USA: +91 02 2585 0556</a>
-                <a href="#">UK: +61 02 2585 0556</a>
+                <a href="#">Phone: +91 02 2585 0556</a>
               </div>
             </div>
             <div class="footer-contact">
@@ -52,8 +39,7 @@
                 <div class="contact-icon">
                   <img src="assets/img/icons/contact-email2.svg" alt="">
                 </div>
-                <a href="#">Contacthelp@Demoui.co</a>
-                <a href="#">Info@consultia.co</a>
+                <a href="#"> info@halalcs.eu</a>
               </div>
             </div>
           </div>
@@ -61,7 +47,7 @@
       </div>
       <div class="row align-items-center copyright2">
         <div class="col-lg-6">
-          <p>© 2022 Consultia by fleexstudio. All Rights Reserved.</p>
+          <p>© 2023 {{config('app.name')}}. All Rights Reserved.</p>
         </div>
         <div class="col-lg-6 text-right">
           <div class="social social2">
@@ -69,7 +55,7 @@
               <li><a data-bs-toggle="tooltip" title="Linked in" href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
               <li><a data-bs-toggle="tooltip" title="Facebook" href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
               <li><a data-bs-toggle="tooltip" title="Instagram" href="#"><i class="fa-brands fa-instagram"></i></a></li>
-              <li><a data-bs-toggle="tooltip" title="TikTok" href="#"><i class="fa-brands fa-tiktok"></i></a></li>
+              {{-- <li><a data-bs-toggle="tooltip" title="TikTok" href="#"><i class="fa-brands fa-tiktok"></i></a></li> --}}
             </ul>
           </div>
         </div>

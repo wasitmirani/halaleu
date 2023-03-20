@@ -11,12 +11,13 @@
               <div class="main-menu">
                 <div class="menu-wrap">
                   <ul class="menu_list scroll">
-                    <li><a href="{{route('home')}}">Home</a></li>
-                    <li><a href="{{route('halal')}}">Halal</a></li>
-                    <li><a href="{{route('about')}}">About Us</a></li>
-                    <li><a href="{{route('services')}}">Services </a></li>
-                    <li><a href="#">Blogs </a></li>
-                    <li><a href="{{route('contact')}}">Contact Us </a></li>
+                    <li><a href="{{route('home')}}">{{__('content.navbar_home')}}</a></li>
+                    <li><a href="{{route('about')}}">{{__('content.navbar_about')}}</a></li>
+                    <li><a href="{{route('halal.explained')}}">{{__('content.navbar_halal_explained')}}</a></li>
+                    <li><a href="{{route('halal.production')}}">{{__('content.navbar_halal_production')}}</a></li>
+
+                    <li><a href="{{route('services')}}">{{__('content.navbar_services')}} </a></li>
+                    <li><a href="{{route('contact')}}">{{__('content.navbar_contact')}} </a></li>
 
 
 
@@ -72,12 +73,12 @@
       <ul class="mobile-nav-list">
 
 
-        <li><a href="{{route('home')}}">Home</a></li>
-        <li><a href="{{route('halal')}}">Halal</a></li>
-        <li><a href="{{route('about')}}">About Us</a></li>
-        <li><a href="{{route('services')}}">Services </a></li>
-        <li><a href="#">Blogs </a></li>
-        <li><a href="{{route('contact')}}">Contact Us </a></li>
+        <li><a href="{{route('home')}}">{{__('content.navbar_home')}}</a></li>
+        <li><a href="{{route('about')}}">{{__('content.navbar_about')}}</a></li>
+        <li><a href="{{route('halal.explained')}}">{{__('content.navbar_halal_explained')}}</a></li>
+        <li><a href="{{route('halal.explained')}}">{{__('content.navbar_halal_explained')}}</a></li>
+        <li><a href="{{route('services')}}">{{__('content.navbar_services')}} </a></li>
+        <li><a href="{{route('contact')}}">{{__('content.navbar_contact')}} </a></li>
 
 
 
@@ -93,8 +94,8 @@
               <div class="contact-icon">
                 <img src="assets/img/icons/contact-phone4.svg" alt="">
               </div>
-              <a href="#">USA: +91 02 2585 0556</a>
-              <a href="#">UK: +61 02 2585 0556</a>
+              <a href="#">USA: +1 00 0000 0000</a>
+              <a href="#">UK: +44 00 0000 0000</a>
             </div>
           </div>
           <div class="footer-contact">
@@ -102,8 +103,7 @@
               <div class="contact-icon">
                 <img src="assets/img/icons/contact-email4.svg" alt="">
               </div>
-              <a href="#">Contacthelp@Demoui.co</a>
-              <a href="#">Info@consultia.co</a>
+              <a href="#">info@halalcs.eu</a>
             </div>
           </div>
         </div>

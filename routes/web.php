@@ -18,7 +18,9 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/',[FrontEndController::class,'index'])->name('home');
 Route::get('/about',[FrontEndController::class,'about'])->name('about');
-Route::get('/halal',[FrontEndController::class,'halal'])->name('halal');
+Route::get('/halal-explained',[FrontEndController::class,'halalExplained'])->name('halal.explained');
+Route::get('/halal-production',[FrontEndController::class,'halalProduction'])->name('halal.production');
+
 Route::get('/services',[FrontEndController::class,'services'])->name('services');
 Route::get('/blogs',[FrontEndController::class,'blogs'])->name('blogs');
 Route::get('/contact',[FrontEndController::class,'contact'])->name('contact');
