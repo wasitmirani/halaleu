@@ -27,9 +27,9 @@
             </div>
             <div class="desktop-info">
               <div class="quick_contact">
-                <div class="quick_contact_icon bg-27">
+                {{-- <div class="quick_contact_icon bg-27">
                   <i class="fa-light fa-phone"></i>
-                </div>
+                </div> --}}
 
                 <div class="quick_contact_content">
                     <select class="form-control changeLang">

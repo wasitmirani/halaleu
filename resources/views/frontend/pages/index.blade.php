@@ -90,9 +90,9 @@
       <div class="row">
         <div class="col-md-6" data-aos="fade-up" data-aos-duration="600">
           <div class="single-business trans-1">
-            <div class="business-icon">
+            {{-- <div class="business-icon">
               <img src="{{asset('assets/img/icons/tax-business1.png')}}" alt="business">
-            </div>
+            </div> --}}
             {{-- <h3>IRS Tax Problems</h3> --}}
             <p>{{__('content.section_message_1')}}</p>
 
@@ -100,18 +100,18 @@
         </div>
         <div class="col-md-6" data-aos="fade-up" data-aos-duration="800">
           <div class="single-business trans-1">
-            <div class="business-icon">
+            {{-- <div class="business-icon">
               <img src="{{asset('assets/img/icons/tax-business2.png')}}" alt="img">
-            </div>
+            </div> --}}
 
             <p>{{__('content.section_message_2')}}</p>
           </div>
         </div>
         <div class="col-md-6" data-aos="fade-up" data-aos-duration="1000">
           <div class="single-business trans-1">
-            <div class="business-icon">
+            {{-- <div class="business-icon">
                 <img src="{{asset('assets/img/icons/tax-business3.png')}}" alt="img">
-            </div>
+            </div> --}}
             <p>{{__('content.section_message_3')}}</p>
           </div>
         </div>
