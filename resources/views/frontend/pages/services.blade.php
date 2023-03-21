@@ -1,4 +1,4 @@
-@extends('layouts.master')
+s@extends('layouts.master')
 
 
 @section('title') {{__('content.services_title')}} @endsection

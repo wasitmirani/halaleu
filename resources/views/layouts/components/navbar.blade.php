@@ -33,8 +33,9 @@
 
                 <div class="quick_contact_content">
                     <select class="form-control changeLang">
-                        <option value="en" {{ session()->get('locale') == 'en' ? 'selected' : '' }}>English</option>
                         <option value="de" {{ session()->get('locale') == 'de' ? 'selected' : '' }}>Deutsch</option>
+                        <option value="en" {{ session()->get('locale') == 'en' ? 'selected' : '' }}>English</option>
+
 
                     </select>
                   {{-- <small>Hotline 24/7</small>

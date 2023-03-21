@@ -10,7 +10,7 @@
   <title> @yield('title')  || {{config('app.name')}}</title>
 
   <!--=====Fav icon=======-->
-  <link rel="shortcut icon" href="{{asset('assets/img/icons/fab2.png')}}" type="image/x-icon">
+  <link rel="shortcut icon" href="{{asset('assets/img/icons/logo.png')}}" type="image/x-icon">
 
   <!--=====CSS=======-->
   <link rel="stylesheet" href="{{asset('assets/css/plugins/bootstrap.min.css')}}">

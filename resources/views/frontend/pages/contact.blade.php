@@ -44,8 +44,10 @@ Contact
               <img src="assets/img/icons/contact-3.svg" alt="">
             </div>
             <div class="contact-box-content">
-              <p class="font-f-3">HEADQUARTERS</p>
-              <a class="font-f-3" href="#">New York, NY 94105, United States</a>
+              <p class="font-f-3">Our Office Address</p>
+              <a class="font-f-3" href="#">Cesar-Stünzi-Strasse 13
+                79618 Rheinfelden
+                Germany</a>
             </div>
           </div>
         </div>
@@ -65,25 +67,43 @@ Contact
         </div>
         <div class="col-lg-8">
           <div class="main-form">
-            <form action="#">
+            <form action="{{route('contact')}}">
               <div class="row">
                 <div class="col-lg-6">
-                  <input type="text" name="fname" placeholder="First Name" required>
+                  <input type="text" name="name" placeholder="Full Name" required>
                 </div>
                 <div class="col-lg-6">
-                  <input type="text" name="lname" placeholder="Last Name">
+                  <input type="text" name="position" placeholder="Position">
                 </div>
+                <div class="col-lg-6">
+                  <input type="email" name="email" placeholder="Email Address" required>
+                </div>
+                <div class="col-lg-6">
+                    <input type="text" name="phone" placeholder="Phone" required>
+                  </div>
+                <div class="col-lg-6">
+                  <input type="text" name="company" placeholder="Company">
+                </div>
+                <div class="col-lg-6">
+                  <input type="text" name="site" placeholder="Website">
+                </div>
+                <div class="col-lg-6">
+                    <input type="text" name="fax" placeholder="Fax">
+                  </div>
+                  <div class="col-lg-6">
+                    <select name="business" class="form-control" id="business">
+                        <option value="Producer">Producer</option>
+                        <option value="Distributor">Distributor</option>
+                        <option value="Supplier">Supplier</option>
+                        <option value="Service provider ">Service provider </option>
+                        <option value="Restaurant">Restaurant</option>
+                        <option value="Catering">Catering</option>
+                        <option value="Take-away">Take-away</option>
+                        <option value="Others">Others</option>
+                    </select>
+                  </div>
                 <div class="col-12">
-                  <input type="email" name="email" placeholder="Email Address">
-                </div>
-                <div class="col-lg-6">
-                  <input type="text" name="service" placeholder="Service Interested In">
-                </div>
-                <div class="col-lg-6">
-                  <input type="text" name="subject" placeholder="Subject">
-                </div>
-                <div class="col-12">
-                  <textarea name="message" id="" cols="30" rows="5" placeholder="Tell Us About Your Projects"></textarea>
+                  <textarea name="message" id="" cols="30" rows="5" placeholder="Message" required></textarea>
                 </div>
                 <div class="col-12">
                   <button type="submit" class="full-btn theme-btn-11 ">Submit</button>

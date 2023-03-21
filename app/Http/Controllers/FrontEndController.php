@@ -37,4 +37,7 @@ class FrontEndController extends Controller
 
         return redirect()->back();
     }
+
+    public function contactsend(Request $request){
+    }
 }

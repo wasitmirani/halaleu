@@ -21,10 +21,10 @@
             </p>
             <div class="space30"></div>
             <div class="btn-group" data-aos="fade-right" data-aos-duration="1200">
-              <a class="theme-btn-2" href="#">
+              <a class="theme-btn-2" href="{{route('contact')}}">
                 {{__('content.est_quote')}}
               <span><i class="fa-solid fa-arrow-right"></i></span></a>
-              <a class="theme-btn-3" href="#">
+              <a class="theme-btn-3" href="{{route('contact')}}">
                 {{__('content.schedule_call')}}
               <span><i class="fa-solid fa-arrow-right"></i></span></a>
             </div>
