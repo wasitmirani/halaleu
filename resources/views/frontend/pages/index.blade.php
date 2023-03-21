@@ -53,14 +53,13 @@
         </div>
         <div class="col-lg-6 d-none d-lg-block">
           <div class="hero-img-elements" data-aos="zoom-out" data-aos-duration="800">
-            <div class="hero-main-img position-relative top-right-polygon-1">
-              <img class="border-radius" src="{{asset('assets/img/bg/main2.jpg')}}" alt="bg">
-              <div class="corner-shape2 position-absolute">
-                <img src="{{asset('assets/img/shapes/tax-shape1.png')}}" alt="shape">
-              </div>
-              <div class="corner-right-bottom-shape2 position-absolute">
-                <img src="{{asset('assets/img/shapes/shape-right-bottom2.png')}}" alt="bottom">
-              </div>
+            <div class="hero-main-img position-relative">
+
+
+        @component('frontend.components.contactform')
+
+        @endcomponent
+
             </div>
           </div>
         </div>

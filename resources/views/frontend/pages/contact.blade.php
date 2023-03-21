@@ -66,51 +66,9 @@ Contact
           </div>
         </div>
         <div class="col-lg-8">
-          <div class="main-form">
-            <form action="{{route('contact')}}">
-              <div class="row">
-                <div class="col-lg-6">
-                  <input type="text" name="name" placeholder="Full Name" required>
-                </div>
-                <div class="col-lg-6">
-                  <input type="text" name="position" placeholder="Position">
-                </div>
-                <div class="col-lg-6">
-                  <input type="email" name="email" placeholder="Email Address" required>
-                </div>
-                <div class="col-lg-6">
-                    <input type="text" name="phone" placeholder="Phone" required>
-                  </div>
-                <div class="col-lg-6">
-                  <input type="text" name="company" placeholder="Company">
-                </div>
-                <div class="col-lg-6">
-                  <input type="text" name="site" placeholder="Website">
-                </div>
-                <div class="col-lg-6">
-                    <input type="text" name="fax" placeholder="Fax">
-                  </div>
-                  <div class="col-lg-6">
-                    <select name="business" class="form-control" id="business">
-                        <option value="Producer">Producer</option>
-                        <option value="Distributor">Distributor</option>
-                        <option value="Supplier">Supplier</option>
-                        <option value="Service provider ">Service provider </option>
-                        <option value="Restaurant">Restaurant</option>
-                        <option value="Catering">Catering</option>
-                        <option value="Take-away">Take-away</option>
-                        <option value="Others">Others</option>
-                    </select>
-                  </div>
-                <div class="col-12">
-                  <textarea name="message" id="" cols="30" rows="5" placeholder="Message" required></textarea>
-                </div>
-                <div class="col-12">
-                  <button type="submit" class="full-btn theme-btn-11 ">Submit</button>
-                </div>
-              </div>
-            </form>
-          </div>
+            @component('frontend.components.contactform')
+
+            @endcomponent
         </div>
       </div>
     </div>
@@ -121,8 +79,8 @@ Contact
       <div class="row">
         <div class="col-lg-8 m-auto">
           <div class="heading2 text-center">
-            <small class="heading-top inner-heading-top"><img src="assets/img/icons/hands.svg" alt="">Our Success in Numbers</small>
-            <h2>Our Offices Around the World</h2>
+            <small class="heading-top inner-heading-top">
+            <h2>Our Office</h2>
           </div>
         </div>
       </div>
@@ -133,62 +91,15 @@ Contact
               <img src="assets/img/icons/telegram.png" alt="">
             </div>
             <h3>
-              <a href="#">New York Office</a>
+              <a href="#">Germany Office</a>
             </h3>
-            <p>90 Abia Martin Drive, Ocean Beach, New York, NY 94105, United States</p>
+            <p>Cesar-Stünzi-Strasse 13 79618 Rheinfelden Germany</p>
             <a href="#" class="theme-btn-13">Get Direction <img src="assets/img/icons/arrow-up-right-inner-1.svg" alt=""></a>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="single-office">
-            <div class="office-icon">
-              <img src="assets/img/icons/telegram.png" alt="">
-            </div>
-            <h3>San Francisco Office</h3>
-            <p>90 Abia Martin Drive, Ocean Beach, New York, NY 94105, United States</p>
-            <a href="#" class="theme-btn-13">Get Direction <img src="assets/img/icons/arrow-up-right-inner-1.svg" alt=""></a>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="single-office">
-            <div class="office-icon">
-              <img src="assets/img/icons/telegram.png" alt="">
-            </div>
-            <h3>Dublin Office</h3>
-            <p>90 Abia Martin Drive, Ocean Beach, New York, NY 94105, United States</p>
-            <a href="#" class="theme-btn-13">Get Direction <img src="assets/img/icons/arrow-up-right-inner-1.svg" alt=""></a>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="single-office">
-            <div class="office-icon">
-              <img src="assets/img/icons/telegram.png" alt="">
-            </div>
-            <h3>Boston Office</h3>
-            <p>90 Abia Martin Drive, Ocean Beach, New York, NY 94105, United States</p>
-            <a href="#" class="theme-btn-13">Get Direction <img src="assets/img/icons/arrow-up-right-inner-1.svg" alt=""></a>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="single-office">
-            <div class="office-icon">
-              <img src="assets/img/icons/telegram.png" alt="">
-            </div>
-            <h3>Los Angeles Office</h3>
-            <p>90 Abia Martin Drive, Ocean Beach, New York, NY 94105, United States</p>
-            <a href="#" class="theme-btn-13">Get Direction <img src="assets/img/icons/arrow-up-right-inner-1.svg" alt=""></a>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="single-office">
-            <div class="office-icon">
-              <img src="assets/img/icons/telegram.png" alt="">
-            </div>
-            <h3>Nashville Office</h3>
-            <p>90 Abia Martin Drive, Ocean Beach, New York, NY 94105, United States</p>
-            <a href="#" class="theme-btn-13">Get Direction <img src="assets/img/icons/arrow-up-right-inner-1.svg" alt=""></a>
-          </div>
-        </div>
+
+
+   
       </div>
     </div>
     <div class="shape-007">
