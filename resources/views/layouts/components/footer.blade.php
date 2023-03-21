@@ -26,14 +26,14 @@
           <div class="single-footer">
             <h3>Get in touch</h3>
 
-            <div class="footer-contact">
+            {{-- <div class="footer-contact">
               <div class="single-contact">
                 <div class="contact-icon">
                   <img src="assets/img/icons/contact-phone2.svg" alt="">
                 </div>
                 <a href="#">Phone: +91 02 2585 0556</a>
               </div>
-            </div>
+            </div> --}}
             <div class="footer-contact">
               <div class="single-contact">
                 <div class="contact-icon">
