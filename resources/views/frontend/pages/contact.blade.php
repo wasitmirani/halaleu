@@ -33,7 +33,7 @@ Contact
             </div>
             <div class="contact-box-content">
               <p class="font-f-3">EMAIL US</p>
-              <a class="font-f-3" href="mailto:hello@consultia.com">hello@consultia.com</a>
+              <a class="font-f-3" href="mailto:info@halalcs.eu">info@halalcs.eu</a>
             </div>
           </div>
         </div>
