@@ -30,7 +30,7 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="about-bg-main-img position-relative ml50">
-                        <img src="assets/img/about/about23.png" alt="">
+                        <img src="assets/img/about/halal-food.jpg" alt="">
                         <div class="corner-right-bottom-shape2 position-absolute">
                             <img src="assets/img/shapes/shape-right-bottom2.png" alt="">
                         </div>

@@ -127,7 +127,7 @@
         <div class="col-lg-6">
           <div class="about-bg-21 mr50" data-aos="zoom-out" data-aos-duration="800">
             <div class="about-bg-main-img position-relative top-left-polygon-1">
-              <img src="{{asset('assets/img/about/about21.png')}}" alt="img">
+              <img src="{{asset('assets/img/about/halal-food.jpg')}}" alt="img">
               <div class="corner-right-bottom-shape2 position-absolute">
                 <img src="{{asset('assets/img/shapes/shape-right-bottom2.png')}}" alt="img">
               </div>

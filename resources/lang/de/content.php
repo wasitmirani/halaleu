@@ -6,7 +6,7 @@ return [
     "navbar_halal_explained" => "Halal erklärt",
     "navbar_halal_production" => "Halal-Produktion",
     "navbar_services" => "Dienstleistungen",
-    "navbar_contact" => "Contact Us",
+    "navbar_contact" => "Kontaktiere uns",
     'site_title' => 'Halal Certification Services',
     'est_quote' => 'Halal-Zertifizierungsdienste',
     'schedule_call' => 'Planen Sie einen Anruf',
