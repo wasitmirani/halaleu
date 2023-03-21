@@ -29,184 +29,33 @@ return [
     'mission_title' => 'Unsere Aufgabe',
     'mission_message_1' => "HCS (EU) strebt die höchsten Standards in Bezug auf Halal-Produkte an, die von den Lehren des Korans und der Sunna unseres geliebten Propheten Mohammed (SAW) bestimmt werden.",
     'mission_message_2' => "Als Ergebnis der zunehmenden Standardisierung und der wachsenden Nachfrage nach einem unabhängigen, zuverlässigen und international anerkannten Zertifizierungssystem hat HCS (EU) ein Halal-Auditsystem entwickelt und implementiert, das den gesamten Prozess von der Produktionsquelle bis zum Zeitpunkt der Herstellung überwacht Export aus Europa.",
-    'mission_message_3' => 'HCS (EU) ensures halal compliance of an industry and provides information, advice, and supervision to help the interested parties achieve their aim of producing halal products.',
-    'mission_message_4' => "Where standards are not met, certification and validation is refused to that party. But it is important to emphasize that the aim of HCS, is to help interested parties seeking halal certification to become fully aware of and achieve a position where they are capable of producing and manufacturing authentic halal products.",
-    'objectives_title' => 'Objectives',
-    'objectives_message_1' => 'Only certify products that meet the halal requirements and guarantee the halalness at all times through continuous and thorough inspections of the processing facilities;',
+    'mission_message_3' => 'HCS (EU) stellt die Halal-Konformität einer Branche sicher und bietet Informationen, Beratung und Überwachung, um den interessierten Parteien zu helfen, ihr Ziel der Herstellung von Halal-Produkten zu erreichen.',
+    'mission_message_4' => "Wo Standards nicht erfüllt werden, wird dieser Partei die Zertifizierung und Validierung verweigert. Es ist jedoch wichtig zu betonen, dass das Ziel von HCS darin besteht, interessierten Parteien, die eine Halal-Zertifizierung anstreben, dabei zu helfen, sich voll und ganz bewusst zu werden und eine Position zu erreichen, in der sie in der Lage sind, authentische Halal-Produkte herzustellen und herzustellen.",
+    'objectives_title' => 'Ziele',
+    'objectives_message_1' => 'Zertifizieren Sie nur Produkte, die den Halal-Anforderungen entsprechen und garantieren Sie jederzeit die Halalness durch kontinuierliche und gründliche Inspektionen der Verarbeitungsbetriebe;',
     'objectives_message_2' => 'Adopt halal standards which are acceptable and authorized by Muslim Scholars;',
-    'objectives_message_3' => "Educate the industry about the halal dietary law and manufacturing procedures;",
-    'objectives_message_4' => "Increase the variety and accessibility to halal products.",
-    'halal_explained_title' => 'Halal Explained',
-    'halal_explained_heading' => "Starting off with a detailed explanation of Halal and non Halal",
-    'halal_explained_message_1' => "Starting off with a detailed explanation of Halal and non
-    Halal, the following chapters will allow you to understand the concept of Halal dietary laws. Furthermore it will elaborate on the restrictions which are in place.",
-    'halal_explained_message_2' => "Apart from that you will also find the respective references from Qur'an and Hadith, which should help you to understand the concept of Halal and Haram. An explanation of the most important terms shall make your dealing with Halal certifying body an easier task.",
-    'halal_explained_message_3' => "We have also included a list of commonly named Haram (forbidden) things.",
-    'what_is_halal_title' => 'What is Halal?',
+    'objectives_message_3' => "Annahme von Halal-Standards, die von muslimischen Gelehrten akzeptiert und genehmigt werden;",
+    'objectives_message_4' => "Erhöhen Sie die Vielfalt und Zugänglichkeit von Halal-Produkten.",
+    'halal_explained_title' => 'Halal erklärt',
+    'halal_explained_heading' => "Beginnen Sie mit einer detaillierten Erklärung von Halal und Nicht-Halal",
+    'halal_explained_message_1' => "Beginnen Sie mit einer detaillierten Erklärung von Halal und Non
+    Halal, die folgenden Kapitel werden Ihnen helfen, das Konzept der Halal-Ernährungsgesetze zu verstehen. Außerdem werden die geltenden Beschränkungen näher erläutert.",
+    'halal_explained_message_2' => "Abgesehen davon finden Sie auch die entsprechenden Referenzen aus Koran und Hadith, die Ihnen helfen sollen, das Konzept von Halal und Haram zu verstehen. Eine Erläuterung der wichtigsten Begriffe soll Ihnen den Umgang mit Halal-Zertifizierungsstellen erleichtern.",
+    'halal_explained_message_3' => "Wir haben auch eine Liste von allgemein als Haram (verboten) bezeichneten Dingen beigefügt.",
+    'what_is_halal_title' => 'Was ist Halal?',
 
-    'what_is_halal_message_1' => "Haram (Arabic: حرام‎) (often Haraam) is an Arabic term meaning forbidden. Haram is anything that is prohibited by the faith. Its antonym is halal.",
-    'what_is_halal_message_2' => "The religious term haram can be applied to:",
-    'what_is_halal_message_3' => "Certain foodstuffs or food ingredients, such as alcohol or pork and also to foods, objects and people that would normally be halaal but which were tarnished in some or other way, for example meat slaughtered in a non-permitted way Certain behaviours, such as adultery or abuse, abstention in the general elections Certain objects",
-    'what_is_halal_message_4' => "Haram also applies to ill-gotten wealth obtained through sin. Examples include money earned through cheating, stealing, corruption, murder or any means that involves harm to another human being. It is prohibited in Islam for a true Muslim to profit from such Haram actions. Any believer who benefits from or lives off wealth obtained through Haram is not a Muslim.",
-    "important_terms_title" => "Important terms",
-    "important_terms_message_1" => "Haram means ‘unlawful’ or ‘prohibited’ according to Islamic Law.",
-    "important_terms_message_2" => "Najs regards foods that are themselves ‘impure’ and that cannot be cleaned.",
-    "important_terms_message_3" => "Mashbooh means ‘suspected’. If Halal food consists of that which is deemed a suspected or unlawful (Haram) ingredient, the item becomes wholly unlawful.",
-    "important_terms_message_4" => "Tayyeb is synonymous with ‘purity’ and ‘quality’, that which is safe and wholesome. Muslims are religiously mandated to consume only Halal and Tayyeb.",
-    "important_terms_message_5" => "Thus most foods are considered to be Halal unless found to be or containing doubtful or Non-Halal ingredient(s)",
-    'glossary_title' => "Glossary",
-    'glossary_message' => "Ahlul Kitab (People of the Book)
-    A term from the Quran. It refers to the People who received Divine Scriptures and is a reference to the Christians and the Jews.
-
-    ALLAH
-    The proper name of GOD, The Creator. ALLAH is a single being with no partners.
-
-    Antioxidant
-    Compounds that delay or prevent oxidation of foods. Examples are BHA, BHT and citric acid.
-
-    BHA
-    Butylated Hydroxy Anisole. It is an antioxidant. BHA is Halal.
-
-    BHT
-    Butylated Hydroxy Toluene. It is an antioxidant. BHT is Halal.
-
-    Carrageenan
-    An extract from Irish Moss, which forms a gel in food systems. It is used as a food ingredient. Carrageenan is Halal.
-
-    Casein
-    The major protein in milk. It is used in the manufacture of most cheeses. It may be Halal or haram, depending upon the enzyme used to produce it.
-
-    Chocolate Liquor
-    A semi-viscous sweet syrup containing chocolate, sugar and other ingredients. It is used in making candy, drinks and other chocolate flavored foods. Chocolate liquor is non-alcoholic and is Halal, unless there is contamination with haram ingredients.
-
-    Clarifying Agents
-    A group of chemical compounds used in liquid foods to remove cloudiness due to suspended matter.
-
-    Cream of Tartar
-    A white crystalline chemical called potassium bitartarate.
-
-    Cultures
-    Several bacteria and other microbes used singly or in combination to bring about fermentation in several foods. They are used in the manufacture of fermented milks, cheeses and fermented meat products.
-
-    Diglycerides
-    Fatty substances containing glycerol and two fatty acids. Diglycerides can be made from animal or vegetable fats and they are used as an emulsifier in food products. If made from Halal animals slaughtered in the Islamic way or from plant sources, they are Halal. Otherwise they are haram. Currently, it is best to look for products using only 100% vegetable diglycerides.
-
-    Emulsifiers
-    A chemical substance that keeps fats (or oils) dispersed in water or water droplets dispersed in fats (or oils). Emulsifiers are used in foods containing both fats (or oils) and water. Examples of emulsifiers are lecithin and mono and diglycerides. Emulsifiers can be made from animal or vegetable sources. If made from Halal animals slaughtered in the Islamic way or from plant sources, they are Halal. Otherwise they are haram.
-
-    Enzymes
-    Protein substances found and formed in all living cells. They bring about chemical reactions inside and outside the body, without being consumed themselves. They are extracted from animals or microorganisms and are utilized in the food industry to manufacture cheese and other products. If made from Halal animals slaughtered in the Islamic way, from plant sources or from microorganisms, they are Halal. Otherwise they are haram. Currently, it is best to look for microbial enzymes.
-
-    Fatwa
-    Religious edicts
-
-    Gelatin
-    A derived protein of animal origin. It is made from the skins, bones and connective tissues and used in desserts and as an additive in a variety of food products. If made from Halal animals slaughtered in the Islamic way, it is Halal. Otherwise it is haram. Unless a product containing gelatin is certified Halal or says Halal gelatin, it is most likely haram and should be avoided.
-
-    GHP
-    Good Hygiene Practice
-
-    GMF
-    Genetically modified foods (GMF) are foods derived from genetically modified organisms. Genetically modified organisms have had specific changes introduced into their DNA by genetic engineering, using a process of either Cisgenesis or Transgenesis. These techniques are much more precise than mutagenesis (mutation breeding) where an organism is exposed to radiation or chemicals to create a non-specific but stable change. Other techniques by which humans modify food organisms include selective breeding (plant breeding and animal breeding), and somaclonal variation.
-
-    GMO
-    A genetically modified organism (GMO) or genetically engineered organism (GEO) is an organism whose genetic material has been altered using genetic engineering techniques.
-
-    GMP
-    Good Manufacturing Practices are guidelines that outline the aspects of production and testing that can impact the quality of a product.
-
-    Hadith
-    Hadith are narrations originating from the words and deeds of the Islamic prophet Mohammad (peace be upon him). Hadith are regarded by traditional schools of jurisprudence as important tools for understanding the Qur'an and in matters of jurisprudence.
-
-    Halal
-    The Arabic word “Halal” implies that which is “lawful” for consumption by Mankind.
-
-    Hanafi
-    One of the Islamic school of thought founded by Imam Abu Hanifah. Among the four established Sunni schools of legal thought in Islam, the Hanafi school is the oldest. It has a reputation for putting greater emphasis on the role of reason and being slightly more liberal than the other three schools.
-
-    The Hanafi school also has the most followers among the four major Sunni schools. (Both the Ottoman Empire and the Mughal Empire were Hanafi so the Hanafi school is still widespread in their former lands).
-
-    Today, the Hanafi school is predominant among the Sunnis of Central Asia, Afghanistan, Pakistan, Bangladesh, India, China as well as in Iraq, Mauritius, Syria, Turkey, Albania, Bosnia, Kosovo, Macedonia in the Balkans and the Caucasus. It is also followed in large numbers in other parts of Muslim world.
-
-    Hanbali
-    Hanbali is one of the four schools Madh'habs (rites) of Fiqh or religious law within Sunni Islam. The jurisprudence school was started by the students of Imam Ahmad bin Hanbal.
-
-    Hanbali jurisprudence is popular in the Arabian Peninsula.
-
-    Haram
-    “Haram” means “unlawful” or “prohibited” according to Islamic Law.
-
-    Ijma’
-    Ijma' is an Arabic term referring ideally to the consensus of the ummah (the community of Muslims, or followers of Islam).
-
-    Lard
-    A saturated fat derived from pork. It is used in frying oils and bakery products. Lard is haram and any products containing lard are haram.
-
-    Lecithin
-    An emulsifier comprised of glycerol, two fatty acids, phosphoric acid and choline. It is extracted from egg yolks, soybeans or animal fats. If made from Halal animals slaughtered in the Islamic way, from plant sources or egg yolks, it is Halal.
-
-    Otherwise it is haram. It is best to stick to products that are Halal certified or contain vegetable lecithin or soya lecithin.
-
-    Makruh
-    something which is makruh is a disliked or offensive act (literally hated). Though it is not haram (forbidden) and therefore not a sin, a person who abstains from this action will be rewarded. Muslims are encouraged to avoid such actions when possible. This is one of the degrees of approval (ahkam) in Islamic law.
-
-    Maliki
-    The Maliki madhhab is one of the four schools of Fiqh or religious law within Sunni Islam.
-
-    It is the third-largest of the four schools, followed by approximately 15% of Muslims, mostly in North Africa, West Africa, United Arab Emirates, and some parts of Saudi Arabia.
-
-    Mashbooh
-    An Arabic word meaning suspect or questionable. Mashbooh items can be produced from Halal or Haram sources. When the specific source is not known, the items are suspect or questionable.
-
-    Monoglycerides
-    Fatty substances containing glycerol and one fatty acid. Monoglycerides can be made from animal or vegetable fats and are used as emulsifiers in food products. If made from Halal animals slaughtered in the Islamic way or from plant sources, they are Halal. Otherwise they are haram. Currently, it is best to look for products using only 100% vegetable diglycerides.
-
-    Najs
-    “Najs” regards foods that are themselves “impure” and that cannot be cleaned. There are 3 differenciations:
-
-    Najs Mughallazah = Severe filth
-    Najs Mukhaffafah = Light filth
-    Najs Mutawassitah = Medium filth
-
-    Pepsin
-    An enzyme extracted from animal stomachs, especially pig stomachs, and used in the production of cheese. Pepsin is haram.
-
-    Quran
-    The Divine revelation to the Prophet Muhammad, may the peace and blessings of ALLAH be upon him. The Quran is the source of wisdom and law for Muslims.
-
-    Rennet
-    An enzyme extracted from the 4th stomach of calves and used in the production of cheese. If the calves are slaughtered in the Islamic way, it is Halal. Otherwise it should be avoided. Microbial rennet is Halal.
-
-    Shafi'i
-    The Shafi‘i school of fiqh is named after Imam ash-Shafi‘i. The Shafi‘i school is followed throughout the Ummah and is the official madhab of most traditional scholars and leading Sunni authorities. It is also recognized as the official madhab by the governments of Brunei Darussalam and Malaysia. In addition, the government of Indonesia uses this madhab for the Indonesian compilation of sharia law.
-
-    It is the dominant madhab of Syria, Palestinian Territories, Lebanon, United Arab Emirates, Chechnya, Kurdistan, Egypt, Djibouti, Eritrea, Somalia, Yemen, Sudan, Maldives, Singapore, Malaysia, Brunei Darussalam and Indonesia.
-
-    It is also practised by large communities in Kuwait, Saudi Arabia (in the Hejaz and Asir), Israel, the Swahili Coast, Mauritius, Thailand, Vietnam, Cambodia, the Philippines, Sri Lanka, Ethiopia, Kazakhstan (by Chechens), and in the Indian States of Kerala, Karnataka (Bhatkal,Mangalore and Coorg districts) , Maharashtra (by Konkani Muslims) and Tamil Nadu.
-
-    The second largest school of the Sunni branch of Islam in terms of followers, the Shafi`i madhhab is followed by approximately 29% of Muslims worldwide.
-
-    Sharia
-    Sharia refers to the way Muslims should live or the path they must follow. Sharia is derived from the sacred text of Islam (the Qur'an), and Traditions (Hadith) gathered from the life of the Islamic Prophet Muhammad.
-
-    There are different interpretations in some areas of Sharia, depending on the school of thought (Madh'hab), and the particular scholars (Ulema) involved. Traditionally, Islamic jurisprudence (Fiqh) interprets and refines Sharia by extending its principles to address new questions. Islamic judges (Qadi) apply the law, however modern application varies from country to country. Sharia deals with many aspects of life.
-
-    Shortening
-    A blend of fats and/or oils used in baked products. If made from Halal animals slaughtered in the Islamic way or from plant sources, it is Halal. Otherwise it is haram. Currently, it is best to look for products using only vegetable shortening.
-
-    Stearic Acid
-    A long chain fatty acid found abundantly in most saturated fats. It can also be synthesized. It is used to make functional chemicals and metallic stearates (sodium stearate, potassium stearate, etc.) for a variety of food applications. If made from Halal animals slaughtered in the Islamic way or from plant sources, it is Halal. Otherwise it is haram. Currently, it is best to look for products using only vegetable stearates.
-
-    Tallow
-    A white solid fat obtained from cattle, sheep or goats and used in making shortenings and frying oils. If made from animals slaughtered in the Islamic way, it is Halal. Otherwise it is haram. Currently, it is best to avoid edible products containing tallow unless they are Halal certified.
-
-    Tayyib:
-    “Tayyib” is synonymous with ‘purity’ and ‘quality’, that which is safe and wholesome. Muslims are religiously mandated to consume only Halal and Tayyib.
-
-    Whey
-    The watery part of milk that separates from the curd during cheese making. It is used as an ingredient in many products.If the enzyme used to produce the whey and cheese is Halal, the whey is Halal. Otherwise it is not. It is best to avoid products containing whey unless they are Halal certified.
-
-    Thus most foods are considered to be Halal unless found to be or containing doubtful or Non-Halal ingredient(s)",
+    'what_is_halal_message_1' => "Haram (arabisch: حرام) (oft Haraam) ist ein arabischer Begriff, der verboten bedeutet. Haram ist alles, was der Glaube verbietet. Sein Antonym ist halal.",
+    'what_is_halal_message_2' => "Der religiöse Begriff Haram kann angewendet werden auf:",
+    'what_is_halal_message_3' => "Bestimmte Lebensmittel oder Lebensmittelzutaten wie Alkohol oder Schweinefleisch sowie Lebensmittel, Gegenstände und Personen, die normalerweise halal wären, aber auf die eine oder andere Weise getrübt wurden, z. B. Fleisch, das auf unerlaubte Weise geschlachtet wurde. Bestimmte Verhaltensweisen wie Ehebruch oder Missbrauch, Enthaltung bei den Parlamentswahlen Bestimmte Objekte",
+    'what_is_halal_message_4' => "Haram gilt auch für unrechtmäßig erworbenen Reichtum, der durch Sünde erlangt wurde. Beispiele hierfür sind Gelder, die durch Betrug, Diebstahl, Korruption, Mord oder andere Mittel verdient wurden, die einem anderen Menschen Schaden zufügen. Im Islam ist es einem wahren Muslim verboten, von solchen Haram-Aktionen zu profitieren. Jeder Gläubige, der von durch Haram erworbenem Reichtum profitiert oder davon lebt, ist kein Muslim.",
+    "important_terms_title" => "Wichtige Begriffe",
+    "important_terms_message_1" => "Haram bedeutet nach islamischem Recht „gesetzwidrig“ oder „verboten“.",
+    "important_terms_message_2" => "Najs betrachtet Lebensmittel, die selbst „unrein“ sind und nicht gereinigt werden können.",
+    "important_terms_message_3" => "Mashbooh bedeutet „verdächtig“. Wenn Halal-Lebensmittel aus Zutaten bestehen, die als verdächtige oder rechtswidrige (Haram) Zutaten gelten, wird der Artikel vollständig rechtswidrig.",
+    "important_terms_message_4" => "Tayyeb ist ein Synonym für „Reinheit“ und „Qualität“, das, was sicher und gesund ist. Muslime sind religiös verpflichtet, nur Halal und Tayyeb zu konsumieren.",
+    "important_terms_message_5" => "Daher gelten die meisten Lebensmittel als Halal, es sei denn, sie enthalten zweifelhafte oder Nicht-Halal-Inhaltsstoffe.",
+    'glossary_title' => "Glossar",
+    'glossary_message' => "Ahlul Kitab (Menschen des Buches) Ein Begriff aus dem Koran. Es bezieht sich auf die Menschen, die die Göttlichen Schriften empfingen, und bezieht sich auf die Christen und die Juden. ALLAH Der richtige Name GOTTES, des Schöpfers. ALLAH ist ein einzelnes Wesen ohne Partner. Antioxidantien Verbindungen, die die Oxidation von Lebensmitteln verzögern oder verhindern. Beispiele sind BHA, BHT und Zitronensäure. BHA butyliertes Hydroxyanisol. Es ist ein Antioxidans. BHA ist Halal. BHT Butyliertes Hydroxytoluol. Es ist ein Antioxidans. BHT ist Halal. Carrageen Ein Extrakt aus Irish Moss, der in Nahrungsmittelsystemen ein Gel bildet. Es wird als Lebensmittelzutat verwendet. Carrageen ist Halal. Casein Das wichtigste Protein in Milch. Es wird bei der Herstellung der meisten Käsesorten verwendet. Es kann Halal oder Haram sein, abhängig von dem Enzym, das zu seiner Herstellung verwendet wird. Schokoladenlikör Ein halbviskoser süßer Sirup, der Schokolade, Zucker und andere Zutaten enthält. Es wird zur Herstellung von Süßigkeiten, Getränken und anderen Lebensmitteln mit Schokoladengeschmack verwendet. Schokoladenlikör ist alkoholfrei und Halal, es sei denn, es liegt eine Kontamination mit haram-Zutaten vor. Klärmittel Eine Gruppe chemischer Verbindungen, die in flüssigen Lebensmitteln verwendet werden, um Trübungen durch Schwebstoffe zu beseitigen. Weinstein Eine weiße kristalline Chemikalie namens Kaliumbitartarat. Kulturen Mehrere Bakterien und andere Mikroben, die einzeln oder in Kombination verwendet werden, um eine Fermentation in mehreren Lebensmitteln herbeizuführen. Sie werden bei der Herstellung von fermentierter Milch, Käse und fermentierten Fleischprodukten verwendet. Diglyceride Fettstoffe, die Glycerin und zwei Fettsäuren enthalten. Diglyceride können aus tierischen oder pflanzlichen Fetten hergestellt werden und werden als Emulgator in Lebensmitteln verwendet. Wenn sie aus islamisch geschlachteten Halal-Tieren oder aus pflanzlichen Quellen hergestellt werden, sind sie Halal. Sonst sind sie haram. Derzeit ist es am besten, nach Produkten zu suchen, die nur 100 % pflanzliche Diglyceride verwenden. Emulgatoren Eine chemische Substanz, die Fette (oder Öle) in Wasser oder Wassertröpfchen in Fetten (oder Ölen) dispergiert hält. Emulgatoren werden in Lebensmitteln verwendet, die sowohl Fette (oder Öle) als auch Wasser enthalten. Beispiele für Emulgatoren sind Lecithin und Mono- und Diglyceride. Emulgatoren können aus tierischen oder pflanzlichen Quellen hergestellt werden. Wenn sie aus islamisch geschlachteten Halal-Tieren oder aus pflanzlichen Quellen hergestellt werden, sind sie Halal. Sonst sind sie haram. Enzyme Eiweißstoffe, die in allen lebenden Zellen vorkommen und gebildet werden. Sie bewirken chemische Reaktionen innerhalb und außerhalb des Körpers, ohne selbst verbraucht zu werden. Sie werden aus Tieren oder Mikroorganismen gewonnen und in der Lebensmittelindustrie zur Herstellung von Käse und anderen Produkten verwendet. Wenn sie aus islamisch geschlachteten Halal-Tieren, aus pflanzlichen Quellen oder aus Mikroorganismen hergestellt werden, sind sie Halal. Sonst sind sie haram. Derzeit ist es am besten, nach mikrobiellen Enzymen zu suchen. Fatwa Religiöse Erlasse Gelatine Ein abgeleitetes Protein tierischen Ursprungs. Es wird aus Haut, Knochen und Bindegewebe hergestellt und in Desserts und als Zusatzstoff in einer Vielzahl von Lebensmitteln verwendet. Wenn es aus islamisch geschlachteten Halal-Tieren hergestellt wird, ist es Halal. Sonst ist es haram. Sofern ein Produkt, das Gelatine enthält, nicht Halal-zertifiziert ist oder Halal-Gelatine sagt, ist es höchstwahrscheinlich haram und sollte vermieden werden. GHP Gute Hygienepraxis GMF Genetisch modifizierte Lebensmittel (GMF) sind Lebensmittel, die aus gentechnisch veränderten Organismen gewonnen werden. Bei gentechnisch veränderten Organismen wurden durch Gentechnik spezifische Änderungen in ihre DNA eingeführt, wobei entweder ein Prozess der Cisgenese oder der Transgenese verwendet wurde. Diese Techniken sind viel präziser als die Mutagenese (Mutationszüchtung), bei der ein Organismus Strahlung oder Chemikalien ausgesetzt wird, um eine unspezifische, aber stabile Veränderung zu erzeugen. Andere Techniken, mit denen Menschen Nahrungsorganismen modifizieren, umfassen die selektive Züchtung (Pflanzenzucht und Tierzucht) und die somaklonale Variation. GMO Ein gentechnisch veränderter Organismus (GMO) oder gentechnisch veränderter Organismus (GEO) ist ein Organismus, dessen genetisches Material durch gentechnische Verfahren verändert wurde. GMP Good Manufacturing Practices sind Richtlinien, die die Aspekte der Produktion und Prüfung beschreiben, die sich auf die Qualität eines Produkts auswirken können. Hadith Hadith sind Überlieferungen, die aus den Worten und Taten des islamischen Propheten Mohammad (Friede sei mit ihm) stammen. Hadith werden von traditionellen Rechtsschulen als wichtige Werkzeuge zum Verständnis des Korans und in Angelegenheiten der Rechtswissenschaft angesehen. Halal Das arabische Wort „Halal“ impliziert, was für den Verzehr durch die Menschheit „legal“ ist. Hanafi Eine der islamischen Denkschulen, die von Imam Abu Hanifah gegründet wurde. Unter den vier etablierten sunnitischen Rechtsschulen im Islam ist die Hanafi-Schule die älteste. Sie hat den Ruf, die Rolle der Vernunft stärker zu betonen und etwas liberaler zu sein als die anderen drei Schulen. Die Hanafi-Schule hat auch die meisten Anhänger unter den vier großen sunnitischen Schulen. (Sowohl das Osmanische Reich als auch das Mogulreich waren Hanafi, daher ist die Hanafi-Schule in ihren ehemaligen Ländern immer noch weit verbreitet). Heute ist die Hanafi-Schule unter den Sunniten Zentralasiens, Afghanistans, Pakistans, Bangladeschs, Indiens, Chinas sowie im Irak, Mauritius, Syrien, der Türkei, Albanien, Bosnien, Kosovo, Mazedonien auf dem Balkan und im Kaukasus vorherrschend. Es wird auch in anderen Teilen der muslimischen Welt in großer Zahl befolgt. Hanbali Hanbali ist eine der vier Schulen Madh'habs (Riten) des Fiqh oder religiösen Gesetzes im sunnitischen Islam. Die Rechtsschule wurde von den Schülern von Imam Ahmad bin Hanbal gegründet. Hanbali-Rechtsprechung ist auf der Arabischen Halbinsel beliebt. Haram „Haram“ bedeutet nach islamischem Recht „gesetzwidrig“ oder „verboten“. Ijma' Ijma' ist ein arabischer Begriff, der sich idealerweise auf den Konsens der Ummah (der Gemeinschaft der Muslime oder Anhänger des Islam) bezieht. Schmalz Ein gesättigtes Fett aus Schweinefleisch. Es wird in Frittierölen und Backwaren verwendet. Schmalz ist haram und alle Produkte, die Schmalz enthalten, sind haram. Lecithin Ein Emulgator bestehend aus Glycerin, zwei Fettsäuren, Phosphorsäure und Cholin. Es wird aus Eigelb, Sojabohnen oder tierischen Fetten gewonnen. Wenn es aus islamisch geschlachteten Halal-Tieren, aus pflanzlichen Quellen oder aus Eigelb hergestellt wird, ist es Halal. Sonst ist es haram. Halten Sie sich am besten an Produkte, die Halal-zertifiziert sind oder pflanzliches Lecithin oder Sojalecithin enthalten. Makruh etwas, das Makruh ist, ist eine unbeliebte oder beleidigende Handlung (buchstäblich gehasst). Obwohl es nicht haram (verboten) und daher keine Sünde ist, wird eine Person, die sich dieser Handlung enthält, belohnt. Muslime werden ermutigt, solche Handlungen nach Möglichkeit zu vermeiden. Dies ist einer der Grade der Zustimmung (ahkam) im islamischen Recht. Maliki Die Madhhab von Maliki ist eine der vier Schulen des Fiqh oder religiösen Gesetzes im sunnitischen Islam. Es ist die drittgrößte der vier Schulen, gefolgt von etwa 15 % der Muslime, hauptsächlich in Nordafrika, Westafrika, den Vereinigten Arabischen Emiraten und einigen Teilen Saudi-Arabiens. Mashbooh Ein arabisches Wort, das verdächtig oder fragwürdig bedeutet. Mashbooh-Artikel können aus Halal- oder Haram-Quellen hergestellt werden. Wenn die spezifische Quelle nicht bekannt ist, sind die Elemente verdächtig oder fragwürdig. Monoglyceride Fettstoffe, die Glycerin und eine Fettsäure enthalten. Monoglyceride können aus tierischen oder pflanzlichen Fetten hergestellt werden und werden als Emulgatoren in Lebensmitteln verwendet. Wenn sie aus islamisch geschlachteten Halal-Tieren oder aus pflanzlichen Quellen hergestellt werden, sind sie Halal. Sonst sind sie haram. Derzeit ist es am besten, nach Produkten zu suchen, die nur 100 % pflanzliche Diglyceride verwenden. Najs „Najs“ bezeichnet Lebensmittel, die selbst „unrein“ sind und nicht gereinigt werden können. Es gibt 3 Unterscheidungen: Najs Mughallazah = starker Dreck Najs Mukhaffafah = leichter Dreck Najs Mutawassitah = mittlerer Dreck Pepsin Ein Enzym, das aus Tiermägen, insbesondere Schweinemagen, gewonnen und zur Herstellung von Käse verwendet wird. Pepsin ist haram. Koran Die göttliche Offenbarung an den Propheten Muhammad, Möge Allahs Segen und Frieden auf ihm sein. Der Koran ist die Quelle der Weisheit und des Gesetzes für Muslime. Lab Ein Enzym, das aus dem 4. Magen von Kälbern gewonnen und zur Herstellung von Käse verwendet wird. Wenn die Kälber nach islamischer Art geschlachtet werden, ist es Halal. Andernfalls sollte es vermieden werden. Mikrobielles Lab ist Halal. Shafi'i Die Shafi'i-Schule des Fiqh ist nach Imam ash-Shafi'i benannt. Die Shafi'i-Schule wird in der gesamten Ummah befolgt und ist die offizielle Madhab der meisten traditionellen Gelehrten und führenden sunnitischen Autoritäten. Es wird auch von den Regierungen von Brunei Darussalam und Malaysia als offizielle Madhab anerkannt. Darüber hinaus verwendet die Regierung von Indonesien diese Madhab für die indonesische Zusammenstellung des Scharia-Rechts. Es ist die dominierende Madhab von Syrien, den Palästinensischen Gebieten, dem Libanon, den Vereinigten Arabischen Emiraten, Tschetschenien, Kurdistan, Ägypten, Dschibuti, Eritrea, Somalia, Jemen, Sudan, Malediven, Singapur, Malaysia, Brunei Darussalam und Indonesien. Es wird auch von großen Gemeinden in Kuwait, Saudi-Arabien (in Hejaz und Asir), Israel, der Swahili-Küste, Mauritius, Thailand, Vietnam, Kambodscha, den Philippinen, Sri Lanka, Äthiopien, Kasachstan (von Tschetschenen) und in China praktiziert die indischen Bundesstaaten Kerala, Karnataka (Distrikte Bhatkal, Mangalore und Coorg), Maharashtra (von Konkani-Muslimen) und Tamil Nadu. Die Shafi`i Madhhab ist die zweitgrößte Schule des sunnitischen Zweigs des Islam in Bezug auf die Anhängerschaft und wird von ungefähr 29% der Muslime weltweit befolgt. Scharia Scharia bezieht sich auf die Art und Weise, wie Muslime leben sollten oder den Weg, dem sie folgen müssen. Die Scharia leitet sich vom heiligen Text des Islam (dem Koran) ab, und Überlieferungen (Hadith) aus dem Leben des islamischen Propheten Muhammad. In einigen Bereichen der Scharia gibt es je nach Denkschule (Madh'hab) und den beteiligten Gelehrten (Ulema) unterschiedliche Interpretationen. Traditionell interpretiert und verfeinert die islamische Rechtswissenschaft (Fiqh) die Scharia, indem sie ihre Prinzipien erweitert, um neue Fragen zu beantworten. Islamische Richter (Qadi) wenden das Gesetz an, jedoch variiert die moderne Anwendung von Land zu Land. Die Scharia befasst sich mit vielen Aspekten des Lebens. Backfett Eine Mischung aus Fetten und/oder Ölen, die in Backwaren verwendet wird. Wenn es aus islamisch geschlachteten Halal-Tieren oder aus pflanzlichen Quellen hergestellt wird, ist es Halal. Sonst ist es haram. Derzeit ist es am besten, nach Produkten zu suchen, die nur pflanzliche Backfette verwenden. Stearinsäure Eine langkettige Fettsäure, die reichlich in den meisten gesättigten Fetten vorkommt. Es kann auch synthetisiert werden. Es wird zur Herstellung von funktionellen Chemikalien und Metallstearaten (Natriumstearat, Kaliumstearat usw.) für eine Vielzahl von Lebensmittelanwendungen verwendet. Wenn es aus islamisch geschlachteten Halal-Tieren oder aus pflanzlichen Quellen hergestellt wird, ist es Halal. Sonst ist es haram. Derzeit ist es am besten, nach Produkten zu suchen, die nur pflanzliche Stearate verwenden. Talg Ein weißes festes Fett, das von Rindern, Schafen oder Ziegen gewonnen und zur Herstellung von Backfetten und Bratölen verwendet wird. Wenn es aus islamisch geschlachteten Tieren hergestellt wird, ist es Halal. Sonst ist es haram. Derzeit ist es am besten, essbare Produkte zu vermeiden, die Talg enthalten, es sei denn, sie sind Halal-zertifiziert. Tayyib: „Tayyib“ ist ein Synonym für „Reinheit“ und „Qualität“, das, was sicher und gesund ist. Muslime sind religiös verpflichtet, nur Halal und Tayyib zu konsumieren. Molke Der wässrige Teil der Milch, der sich bei der Käseherstellung vom Quark trennt. Es wird als Zutat in vielen Produkten verwendet. Wenn das zur Herstellung von Molke und Käse verwendete Enzym Halal ist, ist die Molke Halal. Sonst ist es nicht. Es ist am besten, Produkte zu vermeiden, die Molke enthalten, es sei denn, sie sind Halal-zertifiziert. Daher gelten die meisten Lebensmittel als Halal, es sei denn, sie enthalten zweifelhafte oder Nicht-Halal-Inhaltsstoffe.",
     "noble_intention_title" => "Noble Intention",
     "noble_intention_message" => "In Islam every action of a person, as an individual, as well as a member of the community depends on the purity of his noble intention, which must be clearly expressed before starting any action. It is utmost important to pronounce the Name of Allah (s.w.t.) before any action and His guidance is sought and expressed accordingly. The performance and completion of this duty towards Allah (s.w.t.) has the highest priority for a Muslim. That is why all actions are carried out in such a way that any possible and/or anticipated mistake must/can be avoided altogether.
     It is therefore of utmost importance that everyone involved in the process of production and/or handling with Halal products, must meet and fulfil these stringent demands and undertake all the necessary precautions.",
