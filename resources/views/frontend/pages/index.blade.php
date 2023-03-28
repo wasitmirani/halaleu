@@ -15,7 +15,7 @@
             {{-- <img src="assets/img/icons/money.png" alt=""> --}}
                 {{ __('content.site_title') }}
               </small>
-            <h2 data-aos="fade-right" data-aos-duration="800">{{__('content.main_heading')}}</h2>
+            <h4 data-aos="fade-right" data-aos-duration="800">{{__('content.main_heading')}}</h4>
             <p data-aos="fade-right" data-aos-duration="1000">
                 {{__('content.main_subheading')}}
             </p>
@@ -92,7 +92,7 @@
             {{-- <div class="business-icon">
               <img src="{{asset('assets/img/icons/tax-business1.png')}}" alt="business">
             </div> --}}
-            {{-- <h3>IRS Tax Problems</h3> --}}
+            {{-- <h4>IRS Tax Problems</h4> --}}
             <p>{{__('content.section_message_1')}}</p>
 
           </div>
@@ -141,7 +141,7 @@
           <div class="heading2 no-margin-heading ml50">
             <small data-aos="fade-left" data-aos-duration="600" class="heading-top">
             <img src="assets/img/icons/hands.svg" alt="">{{__('content.about_section_title')}}</small>
-            <h3 data-aos="fade-left" data-aos-duration="800">{{__('content.about_section_heading')}}.</h3>
+            <h4 data-aos="fade-left" data-aos-duration="800">{{__('content.about_section_heading')}}.</h4>
             <p data-aos="fade-left" data-aos-duration="1000">
             {{__('content.about_section_message_1')}}
             </p>

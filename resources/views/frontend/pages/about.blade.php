@@ -16,7 +16,7 @@
             <div class="heading2 no-margin-heading ">
               <small class="heading-top inner-heading-top">
               <img src="assets/img/icons/hands.svg" alt="">{{__('content.about_section_title')}}</small>
-              <h2>{{__('content.about_section_heading')}}</h2>
+              <h4>{{__('content.about_section_heading')}}</h4>
               <p> {{__('content.about_section_message_1')}}</p>
               <p>{{__('content.about_section_message_2')}}</p>
 

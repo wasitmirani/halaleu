@@ -47,8 +47,8 @@
       <div class="row align-items-center">
         <div class="col-lg-6">
           <div class="heading2 white-heading no-margin-heading">
-            <small class="heading-top"><img src="assets/img/icons/hands.svg" alt="">We Are Here For Your Tax Relief.</small>
-            <h2>Join Us today and let us help <span class="heilight-right">you</span> <br> to grow your business.</h2>
+            {{-- <small class="heading-top"><img src="assets/img/icons/hands.svg" alt="">We Are Here For Your Tax Relief.</small> --}}
+            <h3 class="text-white">Join Us today and let us help <span class="heilight-right">you</span> <br> to grow your business.</h3>
           </div>
         </div>
         <div class="col-lg-5 col-md-6 offset-lg-1">

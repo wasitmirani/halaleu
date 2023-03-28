@@ -61,7 +61,7 @@ Contact
         <div class="col-lg-4">
           <div class="heading2 mr50">
             <small class="heading-top inner-heading-top"><img src="assets/img/icons/hands.svg" alt="">Our Success in Numbers</small>
-            <h2>Let’s Work Together</h2>
+            <h3>Let’s Work Together</h3>
             <p>Share your vision for your next projects with us now. Please contact us for basic questions. we’re here to help! </p>
           </div>
         </div>
@@ -74,13 +74,13 @@ Contact
     </div>
   </div>
 
-  <div class="office-area section-padding2 bg-13 inner-font-1 _relative">
+  {{-- <div class="office-area section-padding2 bg-13 inner-font-1 _relative">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 m-auto">
           <div class="heading2 text-center">
             <small class="heading-top inner-heading-top">
-            <h2>Our Office</h2>
+            <h3>Our Office</h3>
           </div>
         </div>
       </div>
@@ -90,20 +90,20 @@ Contact
             <div class="office-icon">
               <img src="assets/img/icons/telegram.png" alt="">
             </div>
-            <h3>
+            <h4>
               <a href="#">Germany Office</a>
-            </h3>
+            </h4>
             <p>Cesar-Stünzi-Strasse 13 79618 Rheinfelden Germany</p>
             <a href="#" class="theme-btn-13">Get Direction <img src="assets/img/icons/arrow-up-right-inner-1.svg" alt=""></a>
           </div>
         </div>
 
 
-   
+
       </div>
     </div>
     <div class="shape-007">
       <img src="assets/img/shapes/shape007.svg" alt="">
     </div>
-  </div>
+  </div> --}}
 @endsection
