@@ -78,11 +78,11 @@
         <div class="col-md-4 m-auto">
           <div class="heading2 white-heading text-center">
             <small data-aos="fade-up" data-aos-duration="600" class="heading-top">
-            <img src="{{asset('assets/img/icons/hands.svg')}}" alt="">
+            {{-- <img src="{{asset('assets/img/icons/hands.svg')}}" alt=""> --}}
             {{__('content.site_title')}}
             </small>
-            <h2 data-aos="fade-up" data-aos-duration="800"><span class="heilight-left">
-            {{__('content.main_heading')}}</span> </h2>
+            <h4 class="text-white" data-aos="fade-up" data-aos-duration="800"><span class="heilight-left">
+            {{__('content.main_heading')}}</span> </h4>
           </div>
         </div>
       </div>

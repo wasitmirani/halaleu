@@ -67,7 +67,6 @@ Contact
         </div>
         <div class="col-lg-8">
             @component('frontend.components.contactform')
-
             @endcomponent
         </div>
       </div>
