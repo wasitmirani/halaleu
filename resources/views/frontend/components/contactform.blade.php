@@ -1,5 +1,5 @@
 <div class="main-form">
-    <form action="{{route('contact')}}">
+    <form action="{{route('send.contact')}}">
       <div class="row">
         <div class="col-lg-6">
           <input type="text" name="name" placeholder="Full Name" required>
@@ -23,7 +23,7 @@
             <input type="text" name="fax" placeholder="Fax">
           </div>
           <div class="col-lg-6">
-            <select name="business" class="form-control" id="business">
+            <select name="business" class="form-control" id="business" required>
                 <option value="Producer">Producer</option>
                 <option value="Distributor">Distributor</option>
                 <option value="Supplier">Supplier</option>
