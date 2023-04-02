@@ -6,8 +6,11 @@ Hi,Administrator
 <strong>Name:</strong>  <span>{{$body['name']}}</span> <br>
 <strong>Email:</strong> <span> {{$body['email']}}</span><br>
 <strong>Phone:</strong> <span>{{$body['phone']}}</span><br>
-<strong>Type:</strong>  <span>{{$body['type']}}</span><br>
-<strong>Subject: </strong> <span>{{$body['subject']}}</span> <br>
+<strong>Business:</strong>  <span>{{$body['business']}}</span><br>
+<strong>Position: </strong> <span>{{$body['position']}}</span> <br>
+<strong>Company: </strong> <span>{{$body['company']}}</span> <br>
+<strong>Site: </strong> <span>{{$body['site']}}</span> <br>
+<strong>Fax: </strong> <span>{{$body['fax']}}</span> <br>
 <strong>Message: </strong> <span>{{$body['message']}}</span> <br>
 
 

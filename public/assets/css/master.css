@@ -1291,7 +1291,7 @@ img {
 .bg7 {
   position: relative;
   z-index: 2;
-  background: url("../img/bg/bg5.jpg") no-repeat;
+  background: url("../img/hero-cover.jpg") no-repeat;
   background-position: center center;
   background-size: cover;
 }

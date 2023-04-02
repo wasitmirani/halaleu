@@ -5,7 +5,8 @@
           <div class="single-footer mr50">
             <a href="{{route('home')}}" class="footer-logo"> <img width="90" src="{{asset('assets/img/logo/logo.png')}}" alt=""></a>
             <div class="space20"></div>
-            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+            <p>{{__('content.main_subheading')}}
+            </p>
           </div>
         </div>
 

@@ -1,5 +1,10 @@
 <div class="main-form">
-    <form action="{{route('send.contact')}}">
+    @if(session('message'))
+    <h5 class="alert alert-success">{{session('message')}}</h5>
+   @endif
+    <form action="{{route('send.contact')}}" method="post">
+    @csrf
+
       <div class="row">
         <div class="col-lg-6">
           <input type="text" name="name" placeholder="Full Name" required>

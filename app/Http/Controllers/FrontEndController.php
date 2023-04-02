@@ -40,7 +40,7 @@ class FrontEndController extends Controller
         return redirect()->back();
     }
 
-    public function contactsend(Request $request){
+    public function contactStore(Request $request){
         $request->validate([
             'name'=>'required',
             'email'=>'required|email',
@@ -81,7 +81,6 @@ class FrontEndController extends Controller
                 'as' => $geo['as'] ?? null,
             ],
         ];
-
 
 
 
