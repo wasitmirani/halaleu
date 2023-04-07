@@ -54,10 +54,13 @@
           </div>
         </div>
         <div class="col-lg-12 d-none  d-lg-block">
-            <div class="faq-items" id="masonry-grid" >
-                <div class="mesonry-item general single-price-list" style="position: absolute; left: 0px; top: 0px;">
-                  <div class="faqs inner-faq">
-                    <div id="general">
+            <div class="faqs-area  inner-font-1 inner-faq-1">
+                <div class="container">
+                    <div class="row align-items-center">
+                    <div class="col-lg-12 d-none d-lg-block">
+                        <div class="ml50">
+                            <div class="faqs">
+                              <div id="faqs">
                       <div class="single-faq">
                         <h2 class="faq-heading font-f-3 weight-700 collapsed" id="faq-heading1" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
                           {{__('content.history_title')}}
@@ -71,6 +74,7 @@
                           </p>
                         </div>
                       </div>
+
                       <div class="single-faq">
                         <h2 class="faq-heading collapsed font-f-3 weight-700" id="faq-heading2" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
                          {{__('content.mission_title')}}
@@ -127,5 +131,9 @@
       </div>
     </div>
   </div>
+      </div>
+    </div>
+  </div>
+
   <!--=====About end=======-->
 @endsection

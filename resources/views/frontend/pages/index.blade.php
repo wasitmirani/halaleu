@@ -11,22 +11,27 @@
       <div class="row align-items-center">
         <div class="col-lg-6">
           <div class="title title2 ">
-            <small data-aos="fade-right" data-aos-duration="600" class="heading-top2">
+            <small class="heading-top2">
+            {{--  data-aos="fade-right" data-aos-duration="600" --}}
             {{-- <img src="assets/img/icons/money.png" alt=""> --}}
                 {{ __('content.site_title') }}
               </small>
-            <h4 data-aos="fade-right" data-aos-duration="800">{{__('content.main_heading')}}</h4>
-            <p data-aos="fade-right" data-aos-duration="1000">
+              {{--  data-aos="fade-right" data-aos-duration="800" --}}
+            <h4>{{__('content.main_heading')}}</h4>
+            {{--  data-aos="fade-right" data-aos-duration="1000" --}}
+            <p>
                 {{__('content.main_subheading')}}
             </p>
-            <div class="space30"></div>
-            <div class="btn-group" data-aos="fade-right" data-aos-duration="1200">
+            {{-- <div class="space30"></div>
+            data-aos="fade-right" data-aos-duration="1200"
+            --}}
+            <div class="btn-group" >
               <a class="theme-btn-2" href="{{route('contact')}}">
                 {{__('content.est_quote')}}
               <span><i class="fa-solid fa-arrow-right"></i></span></a>
-              <a class="theme-btn-3" href="{{route('contact')}}">
+              {{-- <a class="theme-btn-3" href="{{route('contact')}}">
                 {{__('content.schedule_call')}}
-              <span><i class="fa-solid fa-arrow-right"></i></span></a>
+              <span><i class="fa-solid fa-arrow-right"></i></span></a> --}}
             </div>
             <div class="space80"></div>
             <div class="logo-area2" data-aos="fade-right" data-aos-duration="1400">
@@ -53,7 +58,7 @@
         </div>
         <div class="col-lg-6 d-none d-lg-block">
           <div class="hero-img-elements" data-aos="zoom-out" data-aos-duration="800">
-            <div class="hero-main-img position-relative">
+            <div class=" position-relative ">
 
 
         @component('frontend.components.contactform')

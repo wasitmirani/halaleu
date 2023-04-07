@@ -154,16 +154,16 @@ img {
 }
 
 .section-padding {
-  padding: 120px 0;
+  padding: 16px 0;
 }
 @media (max-width: 991px) {
   .section-padding {
-    padding: 60px 0;
+    padding: 50px 0;
   }
 }
 
 .section-padding2 {
-  padding: 120px 0 90px;
+    padding: 20px 0 46px;
 }
 @media (max-width: 991px) {
   .section-padding2 {
@@ -2737,7 +2737,7 @@ img {
 .welcome-area {
   display: flex;
   align-items: center;
-  height: 950px;
+  /* height: 950px; */
 }
 @media (max-width: 991px) {
   .welcome-area {
@@ -2900,7 +2900,7 @@ img {
 }
 
 .welcome-2 {
-  padding-top: 83px;
+  /* padding-top: 83px; */
 }
 
 .welcome-4 {
@@ -5343,7 +5343,7 @@ img.circle-text {
 }
 
 .inner-1 {
-  padding: 175px 0 100px;
+    padding: 108px 0 35px;
 }
 
 .inner-title p {

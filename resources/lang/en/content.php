@@ -2,6 +2,7 @@
 
 return [
     'navbar_home' => "Home",
+    'change_lang'=>"Change language",
     "navbar_about" => "About Us",
     "navbar_halal_explained" => "Halal Explained",
     "navbar_halal_production" => "Halal Production",

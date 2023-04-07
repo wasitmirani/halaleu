@@ -14,8 +14,8 @@
       <div class="row">
         <div class="col-lg-8 m-auto">
           <div class="heading2 text-center">
-            <small class="heading-top inner-heading-top"><img src="assets/img/icons/hands.svg" alt="">
-                {{__('content.services_title')}}</small>
+            {{-- <small class="heading-top inner-heading-top"><img src="assets/img/icons/hands.svg" alt="">
+                {{__('content.services_title')}}</small> --}}
             <h2>{{__('content.services_heading')}}</h2>
           </div>
         </div>
